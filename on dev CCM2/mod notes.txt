@@ -1,0 +1,72 @@
+highly_trained
+"Pronoia Infantry"
+recruit_pool "Pronoia Infantry"  1   1.0   6  0  requires factions { byzantium, } 
+recruit_pool "Greek Firethrower"  1   1.0   4  0  requires factions { byzantium, }
+recruit_pool "Byzantine Cavalry"  1   1.0   4  0  requires factions { byzantium, }
+recruit_pool "Kataphractoi"  1   1   4  0  requires factions { byzantium, }
+
+
+formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
+stat_health      1, 0
+stat_pri         8, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    spear, long_pike, spear_bonus_8
+
+
+; stat_pri_armour   Details of the man's defences
+;                   armour factor
+;                   defensive skill factor (not used when shot at)
+;                   shield factor (only used for attacks from the front of left)
+;                   sound type when hit = flesh, leather, or metal
+; stat_armour_ex    Details of the man's defences
+;                   armour factor. 4 values. First for base value, then 3 upgrade levels
+;                   defensive skill factor (not used when shot at)
+;                   shield factors. First for melee, second for missile fire
+;                   sound type when hit = flesh, leather, or metal
+
+
+Create a region not possible??
+check the 2 files
+
+----
+adjust the unit cost
+
+recruit_pool "Byzantine Lancers"  1   0.34   3  0  requires factions { byzantium, }
+
+65 unit_models/_Units/ES_Peasant_Padded/byzantine_spearmen_lod0.mesh 121 
+65 unit_models/_Units/ES_Peasant_Padded/byzantine_spearmen_lod1.mesh 900 
+65 unit_models/_Units/ES_Peasant_Padded/byzantine_spearmen_lod2.mesh 2500 
+65 unit_models/_Units/ES_Peasant_Padded/byzantine_spearmen_lod3.mesh 6400 
+
+type             Byzantine Phalanx
+dictionary       byzantine_phalanx      ; byzantine phalanx
+category         infantry
+class            spearmen
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          Pikemen, 60, 0, 4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, pike
+formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
+stat_health      1, 0
+stat_pri         13, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    spear, long_pike, spear_bonus_8
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 8, 0, flesh
+;stat_armour_ex   0, 0, 0, 0, 8, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      1, -2, 3, 4
+stat_mental      11, disciplined, highly_trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 640, 95, 85, 200, 640, 4, 190
+armour_ug_levels 0
+armour_ug_models Alamanoi_ug1
+ownership        byzantium
+;unit_info        13, 0, 8
+recruit_priority_offset    0 

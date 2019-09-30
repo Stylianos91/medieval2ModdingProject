@@ -1,0 +1,831 @@
+
+
+type             Kataphractoi
+dictionary       Kataphractoi      ; Kataphractoi
+category         cavalry
+class            heavy
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Kataphractoi, 24, 0, 1
+mount            eastern armoured horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
+formation        2, 4.4, 3, 6, 3, square, wedge
+stat_health      1, 0
+stat_pri         11, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         11, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  8, 6, 6, metal
+;stat_armour_ex   8, 9, 0, 0, 6, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      0, 0, 0, 0
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 670, 95, 80, 185, 670, 4, 230
+armour_ug_levels 1, 2
+armour_ug_models Kataphractoi, Kataphractoi_ug1
+ownership        byzantium
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        8, 0, 15
+recruit_priority_offset    10
+
+type             Byzantine Lancers
+dictionary       Byzantine_Lancers      ; Byzantine Lancers
+category         cavalry
+class            heavy
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Byzantine_Lancers, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
+formation        2, 4.4, 3, 6, 3, square, wedge
+stat_health      1, 0
+stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         9, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 5, 7, metal
+;stat_armour_ex   6, 7, 8, 9, 5, 7, 7, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 490, 80, 65, 155, 490, 4, 140
+armour_ug_levels 2, 3, 4, 5
+armour_ug_models Byzantine_Lancers, Byzantine_Lancers_ug1, Byzantine_Lancers_ug2, Byzantine_Lancers_ug3
+ownership        byzantium, slave
+era 0            byzantium, slave
+era 1            byzantium, slave
+era 2            byzantium, slave
+;unit_info        6, 0, 12
+recruit_priority_offset    5
+
+type             Latinkon
+dictionary       Latinkon      ; Latinkon
+category         cavalry
+class            heavy
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Latinkon, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge
+formation        2, 4.4, 3, 6, 2, square, wedge
+stat_health      1, 0
+stat_pri         9, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         9, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 5, 6, metal
+;stat_armour_ex   7, 8, 0, 0, 5, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        7
+stat_ground      0, 0, 0, 2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 620, 95, 80, 185, 720, 4, 210
+armour_ug_levels 3, 4
+armour_ug_models Latinkon, Latinkon_ug1
+ownership        byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        8, 0, 15
+recruit_priority_offset    10
+
+
+type             Greek Bodyguard
+dictionary       Greek_Bodyguard      ; General's Bodyguard
+category         cavalry
+class            heavy
+voice_type       General
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Greek_Bodyguard, 16, 0, 1
+mount            eastern armoured horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, general_unit
+formation        2, 4.4, 3, 6, 2, square
+stat_health      2, 0
+stat_pri         12, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 5, 6, metal
+;stat_armour_ex   7, 9, 0, 0, 5, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      0, 0, 0, 0
+stat_mental      11, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 960, 125, 95, 225, 960, 1, 280
+armour_ug_levels 3, 4
+armour_ug_models Greek_Bodyguard, Greek_Bodyguard_ug1
+ownership        byzantium
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        11, 0, 32
+recruit_priority_offset    0
+
+type             Greek Militia Cavalry
+dictionary       Greek_Militia_Cavalry      ; Militia Cavalry
+category         cavalry
+class            light
+voice_type       Light
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Greek_Militia_Cavalry, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, free_upkeep_unit
+formation        2, 4.4, 3, 6, 4, square
+stat_health      1, 0
+stat_pri         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         7, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 2, 5, leather
+;stat_armour_ex   2, 3, 0, 0, 2, 5, 5, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, 0, 0, 0
+stat_mental      3, normal, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 310, 65, 55, 135, 310, 4, 90
+armour_ug_levels 1, 2
+armour_ug_models Greek_Militia_Cavalry, Greek_Militia_Cavalry_ug1
+ownership        byzantium
+era 2            byzantium
+;unit_info        3, 0, 9
+recruit_priority_offset    0
+ 
+ 
+type             Byzantine Cavalry
+dictionary       Byzantine_Cavalry      ; Byzantine Cavalry
+category         cavalry
+class            missile
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Byzantine_Cavalry, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, cantabrian_circle
+formation        2, 4.4, 3, 6, 3, square
+stat_health      1, 0
+stat_pri         7, 1, cav_composite_arrow, 120, 20, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         7, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 4, 5, leather
+;stat_armour_ex   7, 8, 9, 0, 4, 5, 5, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, 0, 0, 0
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 530, 65, 55, 135, 530, 4, 150
+armour_ug_levels 1, 2, 3
+armour_ug_models Byzantine_Cavalry, Byzantine_Cavalry_ug1, Byzantine_Cavalry_ug2
+ownership        byzantium, slave
+era 0            byzantium, slave
+era 1            byzantium, slave
+era 2            byzantium, slave
+;unit_info        5, 6, 9
+recruit_priority_offset    15
+ 
+type             Skythikon
+dictionary       Skythikon      ; Skythikon
+category         cavalry
+class            missile
+voice_type       Light
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Skythikon, 24, 0, 1
+mount            fast pony
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
+formation        2, 4.4, 3, 6, 3, square
+stat_health      1, 0
+stat_pri         6, 1, cav_composite_arrow, 120, 20, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         3, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  0, 2, 0, flesh
+;stat_armour_ex   0, 2, 0, 0, 2, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      3, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 420, 65, 55, 135, 420, 4, 120
+armour_ug_levels 0, 1
+armour_ug_models Skythikon, Skythikon_ug1
+ownership        byzantium, slave
+era 0            byzantium, slave
+era 1            byzantium, slave
+era 2            byzantium, slave
+;unit_info        3, 6, 2
+recruit_priority_offset    15
+  
+type             Vardariotai
+dictionary       Vardariotai      ; Vardariotai
+category         cavalry
+class            missile
+voice_type       Light
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Vardariotai, 24, 0, 1
+mount            fast pony
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle
+formation        2, 4.4, 3, 6, 3, square
+stat_health      1, 0
+stat_pri         9, 3, cav_composite_arrow, 120, 25, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         9, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 6, 5, metal
+;stat_armour_ex   7, 9, 0, 0, 6, 5, 5, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      11, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 780, 95, 85, 205, 780, 4, 270
+armour_ug_levels 2, 3
+armour_ug_models Vardariotai, Vardariotai_ug1
+ownership        byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        8, 9, 14
+recruit_priority_offset    25
+   
+type             S Archer Militia
+dictionary       S_Archer_Militia      ; Archer Militia
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_missile
+banner holy      crusade
+soldier          S_Archer_Militia, 48, 0, 0.8
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         7, 1, composite_arrow, 160, 25, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 4, 5, leather
+;stat_armour_ex   2, 6, 0, 0, 4, 5, 5, leather
+stat_sec_armour  0, 0, leather
+stat_heat        0
+stat_ground      1, 0, 2, -2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 350, 65, 50, 115, 350, 4, 120
+armour_ug_levels 0, 1
+armour_ug_models Trebizond_Archers, Trebizond_Archers_ug1
+ownership        byzantium, slave
+;unit_info        3, 5, 1
+recruit_priority_offset    -10
+ 
+ type             Trebizond Archers
+dictionary       Trebizond_Archers      ; Trebizond Archers
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_missile
+banner holy      crusade
+soldier          Trebizond_Archers, 48, 0, 0.8
+attributes       sea_faring, hide_forest, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         9, 2, composite_arrow, 160, 25, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         7, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 4, 5, leather
+;stat_armour_ex   2, 6, 0, 0, 4, 5, 5, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 0, 2, -2
+stat_mental      9, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 400, 75, 50, 115, 400, 4, 120
+armour_ug_levels 0, 1
+armour_ug_models Trebizond_Archers, Byzantine_Guard_Archers_ug1
+ownership        byzantium, slave
+era 0            byzantium, slave
+era 1            byzantium, slave
+era 2            byzantium, slave
+;unit_info        5, 9, 7
+recruit_priority_offset    20
+
+type             Byzantine Guard Archers
+dictionary       Byzantine_Guard_Archers      ; Byzantine Guard Archers
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_missile
+banner holy      crusade
+soldier          Byzantine_Guard_Archers, 48, 0, 1
+attributes       sea_faring, hide_forest, hardy, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         9, 3, composite_arrow, 160, 25, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         9, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  5, 5, 7, metal
+;stat_armour_ex   5, 7, 0, 0, 5, 7, 7, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, 0, 2, -2
+stat_mental      9, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 610, 90, 60, 140, 610, 4, 180
+armour_ug_levels 2, 3
+armour_ug_models Byzantine_Guard_Archers, Byzantine_Guard_Archers_ug1
+ownership        byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        9, 9, 12
+recruit_priority_offset    25
+
+type             SE Town Militia
+dictionary       SE_Town_Militia      ; Town Militia
+category         infantry
+class            light
+voice_type       Light
+banner faction   main_infantry
+banner holy      crusade
+soldier          SE_Town_Militia, 48, 0, 1.5
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         6, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    light_spear, spear_bonus_4
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  0, 1, 8, flesh
+;stat_armour_ex   0, 2, 0, 0, 1, 8, 8, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 0, 2, -2
+stat_mental      3, normal, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 210, 50, 45, 105, 210, 4, 60
+armour_ug_levels 0, 1
+armour_ug_models SE_Town_Militia, SE_Town_Militia_ug1
+ownership        byzantium, slave
+;unit_info        6, 0, 9
+recruit_priority_offset    -15
+ 
+ type             Byzantine Spearmen
+dictionary       Byzantine_Spearmen      ; Byzantine Spearmen
+category         infantry
+class            spearmen
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          Byzantine_Spearmen, 60, 0, 1.5
+attributes       sea_faring, hide_forest, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
+stat_health      1, 0
+stat_pri         9, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    spear, long_pike, spear_bonus_8
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 5, 8, leather
+;stat_armour_ex   2, 6, 8, 0, 5, 8, 8, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 0, 2, -2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 20
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 390, 80, 55, 135, 390, 4, 80
+armour_ug_levels 0, 1, 2
+armour_ug_models Byzantine_Spearmen, Byzantine_Spearmen_ug2, Byzantine_Spearmen_ug2
+ownership        byzantium, slave
+era 0            byzantium, slave
+era 1            byzantium, slave
+era 2            byzantium, slave
+;unit_info        7, 0, 11
+recruit_priority_offset    0
+ 
+type             SE Spear Militia
+dictionary       SE_Spear_Militia      ; Spear Militia
+category         infantry
+class            spearmen
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          SE_Spear_Militia, 60, 0, 1.5
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit
+formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
+stat_health      1, 0
+stat_pri         9, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    spear, long_pike, spear_bonus_8
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 5, 8, leather
+;stat_armour_ex   2, 6, 8, 0, 5, 8, 8, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      1, -2, 3, 4
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 390, 65, 55, 135, 390, 4, 80
+armour_ug_levels 0, 1, 2
+armour_ug_models SE_Spear_Militia, Byzantine_Spearmen_ug2, Byzantine_Spearmen_ug2
+ownership        byzantium, slave
+;unit_info        7, 0, 11
+recruit_priority_offset    -15
+ 
+type             Byzantine Infantry
+dictionary       Byzantine_Infantry      ; Byzantine Infantry
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Byzantine_Infantry, 48, 0, 1
+attributes       sea_faring, hide_forest, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
+stat_health      1, 0
+stat_pri         11, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 6, 8, metal
+;stat_armour_ex   6, 8, 0, 0, 6, 8, 8, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, 0, 2, -2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 400, 65, 50, 115, 400, 4, 110
+armour_ug_levels 1, 2
+armour_ug_models Byzantine_Infantry, Byzantine_Infantry_ug1
+ownership        byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        9, 0, 14
+recruit_priority_offset    15
+ 
+ type             Varangian Guard
+dictionary       Varangian_Guard      ; Varangian Guard
+category         infantry
+class            heavy
+voice_type       Heavy
+accent         East_European
+banner faction   main_infantry
+banner holy      crusade
+soldier          Varangian_Guard, 48, 0, 1.2
+attributes       sea_faring, hide_forest, hardy, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         19, 9, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1.33
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 10, 6, metal
+;stat_armour_ex   7, 8, 0, 0, 10, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        7
+stat_ground      1, -2, 3, 4
+stat_mental      11, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 650, 90, 65, 155, 650, 4, 190
+armour_ug_levels 3, 4
+armour_ug_models Varangian_Guard, Varangian_Guard_ug1
+ownership        byzantium
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        19, 0, 20
+recruit_priority_offset    20
+ 
+ type             Dismounted Byzantine Lancers
+dictionary       Dismounted_Byzantine_Lancers      ; Dismounted Byzantine Lancers
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Dismounted_Byzantine_Lancers, 48, 0, 1.2
+attributes       sea_faring, hide_forest, hardy, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall 
+stat_health      1, 0
+stat_pri         11, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  5, 5, 8, metal
+;stat_armour_ex   5, 6, 7, 8, 5, 8, 8, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, 0, 2, -2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 370, 75, 50, 115, 370, 4, 110
+armour_ug_levels 2, 3, 4, 5
+armour_ug_models Dismounted_Byzantine_Lancers, Dismounted_Byzantine_Lancers_ug1, Dismounted_Byzantine_Lancers_ug2, Dismounted_Byzantine_Lancers_ug3
+ownership        byzantium
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        9, 0, 14
+recruit_priority_offset    0
+ 
+type             Dismounted Latinkon
+dictionary       Dismounted_Latinkon      ; Dismounted Latinkon
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Dismounted_Latinkon, 48, 0, 1.2
+attributes       sea_faring, hide_forest, hardy, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 3, square, shield_wall
+stat_health      1, 0
+stat_pri         11, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 5, 8, metal
+;stat_armour_ex   7, 8, 0, 0, 5, 8, 8, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        7
+stat_ground      1, -2, 3, 4
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 540, 115, 60, 140, 540, 4, 160
+armour_ug_levels 3, 4
+armour_ug_models Dismounted_Latinkon, Dismounted_Latinkon_ug1
+ownership        byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        11, 0, 17
+recruit_priority_offset    0
+  
+ type             Archontopoulai
+dictionary       Archontopoulai      ; Archontopoulai
+category         cavalry
+class            heavy
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Archontopoulai, 24, 0, 1
+mount            eastern armoured horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
+formation        2, 4.4, 3, 6, 3, square, wedge
+stat_health      1, 0
+stat_pri         12, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  7, 5, 5, metal
+;stat_armour_ex   7, 8, 0, 0, 5, 5, 5, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      0, 0, -10, -1
+stat_mental      11, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 870, 95, 85, 205, 870, 4, 260
+armour_ug_levels 3, 4
+armour_ug_models Archontopoulai, Archontopoulai_ug1
+ownership        byzantium
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        11, 0, 15
+recruit_priority_offset    15
+ 
+type             Greek Firethrower
+dictionary       Greek_Firethrower      ; Greek Firethrower
+category         infantry
+class            missile
+voice_type       Heavy
+banner faction   main_missile
+banner holy      crusade
+soldier          Greek_Firethrower, 24, 0, 1
+attributes       sea_faring, hide_forest, hardy, can_withdraw, cannot_skirmish
+formation        1.2, 1.2, 2.4, 2.4, 2, square
+stat_health      1, 0
+stat_pri         18, 3, greek_fire, 50, 6, missile, missile_gunpowder, slashing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp
+stat_sec         11, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 6, 5, metal
+;stat_armour_ex   6, 7, 0, 0, 6, 5, 5, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, 0, 2, -2
+stat_mental      9, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 800, 75, 30, 75, 800, 2, 240
+armour_ug_levels 2, 3
+armour_ug_models Greek_Firethrower, Greek_Firethrower_ug1
+ownership        byzantium, slave
+era 1            byzantium, slave
+era 2            byzantium, slave
+;unit_info        9, 18, 12
+recruit_priority_offset    0
+ 
+  type             Alamanoi
+dictionary       Alamanoi      ; Alamanoi
+category         infantry
+class            heavy
+voice_type       Heavy
+accent         German
+banner faction   main_infantry
+banner holy      crusade
+soldier          Alamanoi, 48, 0, 1.2
+attributes       sea_faring, hide_forest, hardy, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      1, 0
+stat_pri         15, 9, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1.3
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 8, 0, metal
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        6
+stat_ground      1, -2, 3, 4
+stat_mental      9, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 490, 75, 60, 140, 490, 4, 140
+armour_ug_levels 2, 3
+armour_ug_models Alamanoi, Alamanoi_ug1
+ownership        byzantium, slave
+era 2            byzantium, slave
+;unit_info        15, 0, 11
+recruit_priority_offset    15
+ 
+ type             Pronoia Infantry
+dictionary       Pronoia_Infantry      ; Pronoia Infantry
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Pronoia_Infantry, 48, 0, 1
+attributes       sea_faring, hide_forest, can_withdraw
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         11, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1.2
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 5, 8, metal
+;stat_armour_ex   6, 7, 0, 0, 5, 8, 8, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, 0, 2, -2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 430, 65, 50, 115, 430, 4, 120
+armour_ug_levels 2, 3
+armour_ug_models Pronoia_Infantry, Pronoia_Infantry_ug1
+ownership        byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        7, 0, 14
+recruit_priority_offset    -10
+ 
+ type             Byzantine Gunners
+dictionary       Byzantine_Gunners      ; Byzantine Gunners
+category         infantry
+class            heavy
+voice_type       Light
+banner faction   main_missile
+banner holy      crusade
+soldier          Byzantine_gunners, 48, 0, 0.8
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, cannot_skirmish, gunmen
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         13, 2, hand_gun_bullet, 95, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         9, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  9, 6, 0, metal
+;stat_armour_ex   9, 0, 0, 0, 6, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      1, 0, 2, -2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 600, 75, 50, 115, 600, 4, 180
+armour_ug_levels 3
+armour_ug_models Byzantine_gunners
+ownership        byzantium
+era 1            byzantium
+era 2            byzantium
+;unit_info        5, 13, 8
+recruit_priority_offset    0
+ 
