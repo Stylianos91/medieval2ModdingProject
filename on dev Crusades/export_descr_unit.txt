@@ -6378,7 +6378,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 320, 115, 55, 135, 320, 4, 90
-armour_ug_levels 0, 1
+armour_ug_levels 0, 1, 2
 armour_ug_models SE_Spear_Militia, Byzantine_Spearmen_ug2, Byzantine_Spearmen_ug2
 ownership        byzantium, slave
 ;unit_info        7, 0, 11
