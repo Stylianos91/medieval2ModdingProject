@@ -70,3 +70,9 @@ armour_ug_models Alamanoi_ug1
 ownership        byzantium
 ;unit_info        13, 0, 8
 recruit_priority_offset    0 
+
+
+///
+on cfg bottom 
+[io]
+file_first = true
